@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "enderaddons",
+	"version": "${version}",
+	"name": "EnderAddons",
+	"description": "This is my first ever mod, I hope you enjoy playing with it.",
+	"authors": [
+		"TropicQuest"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/enderaddons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.tropicquest.enderaddons.EnderAddons"
+		],
+		"client": [
+			"net.tropicquest.enderaddons.EnderAddonsClient"
+		],
+		"fabric-datagen": [
+			"net.tropicquest.enderaddons.EnderAddonsDataGenerator"
+		]
+	},
+	"mixins": [
+		"enderaddons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
