@@ -2,6 +2,8 @@ package net.tropicquest.enderaddons;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tropicquest.enderaddons.block.ModBlocks;
+import net.tropicquest.enderaddons.item.ModItemGroup;
 import net.tropicquest.enderaddons.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +17,8 @@ public class EnderAddons implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

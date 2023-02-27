@@ -13,11 +13,14 @@ import net.tropicquest.enderaddons.EnderAddons;
 public class ModItems {
     public static final Item ENDERSHARDFRAGMENT = registerItem("endershardfragment",
             new Item(new FabricItemSettings()));
+    public static final Item ENDERSWORD = registerItem("endersword",
+            new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(EnderAddons.MOD_ID, name), item);
     }
     public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, ENDERSHARDFRAGMENT);
+        addToItemGroup(ModItemGroup.ENDERADDONS, ENDERSHARDFRAGMENT);
+        addToItemGroup(ModItemGroup.ENDERADDONS, ENDERSWORD);
     }
     private static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
