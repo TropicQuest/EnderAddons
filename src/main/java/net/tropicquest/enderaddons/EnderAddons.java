@@ -25,6 +25,7 @@ public class EnderAddons implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItems.registerarmor();
 		Registry.register(Registries.ITEM, new Identifier("enderaddons", "endersword"), ENDERSWORD);
 		Registry.register(Registries.ITEM, new Identifier("enderaddons", "enderpickaxe"), ENDERPICKAXE);
 		Registry.register(Registries.ITEM, new Identifier("enderaddons", "enderhoe"), ENDERHOE);

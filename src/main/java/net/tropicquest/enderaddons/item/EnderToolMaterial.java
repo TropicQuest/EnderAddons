@@ -12,7 +12,7 @@ public class EnderToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 10.0F;
+        return 12.0F;
     }
 
     @Override
