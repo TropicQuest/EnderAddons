@@ -3,5 +3,9 @@
   "item.enderaddons.endersword": "Ender Sword",
   "block.enderaddons.enderpearl_block": "Enderpearl Block",
   "block.enderaddons.endershard_block": "Endershard Block",
-  "block.enderaddons.endershard_ore": "Endershard Ore"
+  "block.enderaddons.endershard_ore": "Endershard Ore",
+  "item.enderaddons.enderpickaxe": "Ender Pickaxe",
+  "item.enderaddons.enderaxe": "Ender Axe",
+  "item.enderaddons.endershovel": "Ender Shovel",
+  "item.enderaddons.enderhoe": "Ender Hoe"
 }
