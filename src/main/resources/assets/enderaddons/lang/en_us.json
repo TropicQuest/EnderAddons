@@ -7,5 +7,9 @@
   "item.enderaddons.enderpickaxe": "Ender Pickaxe",
   "item.enderaddons.enderaxe": "Ender Axe",
   "item.enderaddons.endershovel": "Ender Shovel",
-  "item.enderaddons.enderhoe": "Ender Hoe"
+  "item.enderaddons.enderhoe": "Ender Hoe",
+  "item.enderaddons.enderhelmet": "Ender Helmet",
+  "item.enderaddons.enderchestplate": "Ender Chestplate",
+  "item.enderaddons.enderleggings": "Ender Leggings",
+  "item.enderaddons.enderboots": "Ender Boots"
 }
