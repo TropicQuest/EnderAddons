@@ -9,7 +9,7 @@ import net.minecraft.sound.SoundEvents;
 public class EnderArmorMaterial implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
-    private static final int[] PROTECTION_VALUES = new int[] {4, 10, 8, 4};
+    private static final int[] PROTECTION_VALUES = new int[] {4, 8, 10, 4};
     @Override
     public int getDurability(EquipmentSlot slot) {
         return BASE_DURABILITY[slot.getEntitySlotId()] * 100;
