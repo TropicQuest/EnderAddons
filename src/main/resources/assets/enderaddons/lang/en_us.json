@@ -1,5 +1,5 @@
 {
-  "item.enderaddons.endershardfragment": "Ender Shard Fragment",
+  "item.enderaddons.endershard": "Ender Shard",
   "item.enderaddons.endersword": "Ender Sword",
   "block.enderaddons.enderpearl_block": "Enderpearl Block",
   "block.enderaddons.endershard_block": "Endershard Block",
@@ -11,5 +11,7 @@
   "item.enderaddons.enderhelmet": "Ender Helmet",
   "item.enderaddons.enderchestplate": "Ender Chestplate",
   "item.enderaddons.enderleggings": "Ender Leggings",
-  "item.enderaddons.enderboots": "Ender Boots"
+  "item.enderaddons.enderboots": "Ender Boots",
+  "item.enderaddons.enderstar": "Ender Star"
+
 }

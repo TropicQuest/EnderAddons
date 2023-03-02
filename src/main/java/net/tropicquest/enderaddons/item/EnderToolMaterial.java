@@ -32,7 +32,7 @@ public class EnderToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.ENDERSHARDFRAGMENT);
+        return Ingredient.ofItems(ModItems.ENDERSHARD);
     }
     public static final EnderToolMaterial INSTANCE = new EnderToolMaterial();
 }

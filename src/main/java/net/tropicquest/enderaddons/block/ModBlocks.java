@@ -14,6 +14,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tropicquest.enderaddons.EnderAddons;
@@ -22,9 +23,9 @@ import net.tropicquest.enderaddons.item.ModItems;
 
 public class ModBlocks {
     public static final Block ENDERPEARL_BLOCK = registerBlock("enderpearl_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(5.0f).requiresTool()), ModItemGroup.ENDERADDONS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(5.0f).requiresTool().luminance(2)), ModItemGroup.ENDERADDONS);
     public static final Block ENDERSHARD_BLOCK = registerBlock("endershard_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(10.0f).requiresTool()), ModItemGroup.ENDERADDONS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(10.0f).requiresTool().luminance(5).sounds(BlockSoundGroup.AMETHYST_BLOCK)), ModItemGroup.ENDERADDONS);
     public static final Block ENDERSHARD_ORE = registerBlock("endershard_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(10.0f).requiresTool(),
                     UniformIntProvider.create(10,15)), ModItemGroup.ENDERADDONS);

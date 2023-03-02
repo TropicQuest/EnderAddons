@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "enderaddons:enderpearl_block",
+    "enderaddons:endershard_block",
+    "enderaddons:endershard_ore"
+  ]
+}

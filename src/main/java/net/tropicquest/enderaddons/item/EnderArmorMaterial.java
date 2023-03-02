@@ -12,7 +12,7 @@ public class EnderArmorMaterial implements ArmorMaterial {
     private static final int[] PROTECTION_VALUES = new int[] {4, 10, 8, 4};
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 50;
+        return BASE_DURABILITY[slot.getEntitySlotId()] * 100;
     }
 
     @Override
@@ -27,12 +27,12 @@ public class EnderArmorMaterial implements ArmorMaterial {
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_GOLD;
+        return SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.ENDERSHARDFRAGMENT);
+        return Ingredient.ofItems(ModItems.ENDERSHARD);
     }
 
     @Override
