@@ -1,3 +1,2 @@
-# enderaddons-1.19.3
-Hello, this is the first minecraft mod I have ever created, and my first time ever working with java.
-If you have any seggustions, please link tutorials on how to add such things.
+# EnderAddons, a lightweight fabric end expansion mod
+It is currently only compatable with 1.19.3, im almost finished wit the mod and when I am this will contain all recipes and information about the mod.
