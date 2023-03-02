@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "enderaddons:endershardfragment",
+              "name": "enderaddons:endershard",
               "functions": [
                 {
                   "function": "minecraft:explosion_decay"

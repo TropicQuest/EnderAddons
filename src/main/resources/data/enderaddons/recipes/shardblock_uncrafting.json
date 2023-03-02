@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "enderaddons:endershard_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "enderaddons:endershard"
+  }
+}

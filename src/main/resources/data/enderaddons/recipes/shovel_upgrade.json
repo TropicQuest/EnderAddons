@@ -4,9 +4,9 @@
     "item": "enderaddons:endstar"
   },
   "base": {
-    "item": "minecraft:netherite_helmet"
+    "item": "minecraft:netherite_shovel"
   },
   "result": {
-    "item": "enderaddons:enderhelmet"
+    "item": "enderaddons:endershovel"
   }
 }
