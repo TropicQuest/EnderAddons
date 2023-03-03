@@ -3,15 +3,15 @@
 	"id": "enderaddons",
 	"version": "${version}",
 	"name": "EnderAddons",
-	"description": "This is my first ever mod, I hope you enjoy playing with it.",
+	"description": "Add various new items, armor, and a super strong ore to the end dimension!",
 	"authors": [
 		"TropicQuest"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/TropicQuest/EnderAddons/wiki",
+		"sources": "https://github.com/TropicQuest/EnderAddons"
 	},
-	"license": "MIT",
+	"license": "GNU GPLv3",
 	"icon": "assets/enderaddons/icon.png",
 	"environment": "*",
 	"entrypoints": {
