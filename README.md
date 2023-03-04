@@ -1,5 +1,5 @@
 # EnderAddons, a lightweight fabric end expansion mod
-It is currently only compatable with 1.19.3, im almost finished with the mod and when I am this or the wiki whichever I think is easier will contain all recipes and information about the mod.
+It is currently only compatable with 1.19.3, I do plan to maintain it into 1.20
 
 # Future plans for v2: The Enderbiome update
 * New forest biome in end, will have navy blue wood and trees and shouldnt be too rare.
