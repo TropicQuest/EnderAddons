@@ -1,4 +1,4 @@
-# EnderAddons, a lightweight fabric end expansion mod
+# EnderAddons, a lightweight fabric End expansion mod
 It is currently only compatable with 1.19.3, I do plan to maintain it into 1.20
 
 # Future plans for v2: The Enderbiome update
