@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enderaddons:endertrophy"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "text": "Congrats on obtaining all the gear, and thanks for playing my mod."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:enderaddons/root",
+  "criteria": {
+    "got_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderboots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderchestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderhelmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderleggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain a full set of EnderArmor"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "enderaddons:enderchestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cover me in Ender Shards"
+    }
+  },
+  "requirements": [
+    [
+      "got_helmet"
+    ],
+    [
+      "got_chestplate"
+    ],
+    [
+      "got_leggings"
+    ],
+    [
+      "got_boots"
+    ]
+  ]
+}

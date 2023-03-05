@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:enderaddons/got_tools",
+  "criteria": {
+    "got_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderhoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain an EnderHoe"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "enderaddons:enderhoe",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Stupidity Certificate"
+    }
+  },
+  "requirements": [
+    [
+      "got_hoe"
+    ]
+  ]
+}

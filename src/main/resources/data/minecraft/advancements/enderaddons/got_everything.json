@@ -1,0 +1,162 @@
+{
+  "parent": "minecraft:enderaddons/got_armor",
+  "criteria": {
+    "got_axe1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_boots1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderboots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_chestplate1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderchestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_helmet1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderhelmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_hoe1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderhoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_leggings1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderleggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_pickaxe1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderpickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_shovel1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:endershovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_sword1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:endersword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get all tools & armor"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "enderaddons:endertrophy"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cool Trophy"
+    }
+  },
+  "requirements": [
+    [
+      "got_sword1"
+    ],
+    [
+      "got_pickaxe1"
+    ],
+    [
+      "got_axe1"
+    ],
+    [
+      "got_hoe1"
+    ],
+    [
+      "got_shovel1"
+    ],
+    [
+      "got_helmet1"
+    ],
+    [
+      "got_chestplate1"
+    ],
+    [
+      "got_leggings1"
+    ],
+    [
+      "got_boots1"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "enderaddons:items/endertrophy_loot"
+    ]
+  }
+}

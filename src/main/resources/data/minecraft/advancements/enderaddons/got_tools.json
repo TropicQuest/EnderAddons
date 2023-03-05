@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:enderaddons/root",
+  "criteria": {
+    "got_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:enderpickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:endershovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:endersword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain a full set of EnderTools except the EnderHoe"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "enderaddons:enderpickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Tools at the End of the Game"
+    }
+  },
+  "requirements": [
+    [
+      "got_sword"
+    ],
+    [
+      "got_pickaxe"
+    ],
+    [
+      "got_axe"
+    ],
+    [
+      "got_shovel"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "got_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderaddons:endershard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/endershard_block.png",
+    "description": {
+      "text": "Obtain an Ender Shard"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "enderaddons:endershard"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Shiny End Rocks"
+    }
+  },
+  "requirements": [
+    [
+      "got_dirt"
+    ]
+  ]
+}

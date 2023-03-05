@@ -16,6 +16,8 @@ import net.tropicquest.enderaddons.item.custom.ModPickaxeItem;
 public class ModItems {
     public static final Item ENDERSHARD = registerItem("endershard",
             new Item(new FabricItemSettings().fireproof()));
+    public static final Item ENDERTROPHY = registerItem("endertrophy",
+            new Item(new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
     public static final Item ENDSTAR = registerItem("endstar",
             new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof().maxCount(16)));
     public static ToolItem ENDERSWORD = new SwordItem(EnderToolMaterial.INSTANCE, 3, -2.4F, new Item.Settings().fireproof());
@@ -50,6 +52,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.ENDERADDONS, ENDERLEGGINGS);
         addToItemGroup(ModItemGroup.ENDERADDONS, ENDERBOOTS);
         addToItemGroup(ModItemGroup.ENDERADDONS, ENDSTAR);
+        addToItemGroup(ModItemGroup.ENDERADDONS, ENDERTROPHY);
     }
     private static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
