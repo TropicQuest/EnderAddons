@@ -2,7 +2,9 @@
 It is currently only compatable with 1.19.3, I do plan to maintain it into 1.20
 
 Showcase: https://www.youtube.com/embed/AFy7ZAsVTyo
+
 Curseforge: https://www.curseforge.com/minecraft/mc-mods/enderaddons
+
 Modrinth: https://modrinth.com/mod/enderaddons
 
 # Future plans for v2: The Enderbiome update
