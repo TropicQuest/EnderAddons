@@ -13,7 +13,14 @@
   "item.enderaddons.enderleggings": "Ender Leggings",
   "item.enderaddons.enderboots": "Ender Boots",
   "item.enderaddons.endstar": "End Star",
-  "item.enderaddons.endertrophy": "Ender Trophy"
-
+  "item.enderaddons.endertrophy": "Ender Trophy",
+  "block.enderaddons.endertree_wood": "Ender Wood",
+  "block.enderaddons.endertree_log": "Ender Log",
+  "block.enderaddons.endertree_stripped_log": "Stripped Ender Log",
+  "block.enderaddons.endertree_stripped_wood": "Stripped Ender Wood",
+  "block.enderaddons.endertree_sapling": "Ender Sapling",
+  "block.enderaddons.endertree_leaves": "Ender Leaves",
+  "block.enderaddons.endertree_planks": "Ender Planks",
+  "block.enderaddons.ender_grass": "Ender Grass"
 
 }

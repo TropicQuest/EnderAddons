@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "enderaddons:block/endertree_sapling"
+    }
+  }
+}

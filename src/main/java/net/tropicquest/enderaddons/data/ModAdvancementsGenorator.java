@@ -1,19 +1,16 @@
-package net.tropicquest.enderaddons;
+package net.tropicquest.enderaddons.data;
 
 import net.minecraft.advancement.Advancement;
 import net.minecraft.advancement.AdvancementFrame;
 import net.minecraft.advancement.AdvancementRewards;
-import net.minecraft.advancement.criterion.ConsumeItemCriterion;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.tropicquest.enderaddons.item.ModItems;
 
 import java.util.function.Consumer;
 
-public class Advancements implements Consumer<Consumer<Advancement>> {
+public class ModAdvancementsGenorator implements Consumer<Consumer<Advancement>> {
 
     @Override
     public void accept(Consumer<Advancement> consumer) {

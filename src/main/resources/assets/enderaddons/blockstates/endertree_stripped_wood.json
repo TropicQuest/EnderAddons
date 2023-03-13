@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "enderaddons:block/endertree_stripped_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "enderaddons:block/endertree_stripped_wood"
+    },
+    "axis=z": {
+      "model": "enderaddons:block/endertree_stripped_wood",
+      "x": 90
+    }
+  }
+}

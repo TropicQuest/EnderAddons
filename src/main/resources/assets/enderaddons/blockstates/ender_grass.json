@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "enderaddons:block/ender_grass",
+        "weight": 1
+      },
+      {
+        "model": "enderaddons:block/ender_grass",
+        "y": 90
+      },
+      {
+        "model": "enderaddons:block/ender_grass",
+        "y": 180
+      },
+      {
+        "model": "enderaddons:block/ender_grass",
+        "y": 270
+      }
+    ]
+  }
+}

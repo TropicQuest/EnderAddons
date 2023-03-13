@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "enderaddons:endertree_log",
+    "enderaddons:endertree_wood",
+    "enderaddons:endertree_stripped_log",
+    "enderaddons:endertree_stripped_wood"
+  ]
+}

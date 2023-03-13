@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -40,6 +41,8 @@ public class EnderAddons implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier("enderaddons", "endershovel"), ENDERSHOVEL);
 		Registry.register(Registries.ITEM, new Identifier("enderaddons", "enderaxe"), ENDERAXE);
 		BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
+		StrippableBlockRegistry.register(ModBlocks.ENDERTREE_STRIPPED_LOG, ModBlocks.ENDERTREE_STRIPPED_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.ENDERTREE_LOG, ModBlocks.ENDERTREE_WOOD);
 
 	}
 }

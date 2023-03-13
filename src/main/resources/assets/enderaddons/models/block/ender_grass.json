@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "enderaddons:block/ender_grass_bottom",
+    "side": "enderaddons:block/ender_grass_side",
+    "top": "enderaddons:block/ender_grass_top"
+  }
+}

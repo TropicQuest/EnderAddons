@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "enderaddons:block/endertree_log",
+    "side": "enderaddons:block/endertree_log"
+  }
+}
