@@ -21,7 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDERTREE_PLANKS);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDERTREE_LEAVES);
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.ENDERTREE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
-        //blockStateModelGenerator.registerCubeWithCustomTextures();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDERTREE_SLAB);
+
     }
 
     @Override

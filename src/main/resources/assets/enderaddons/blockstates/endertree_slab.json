@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enderaddons:block/endertree_slab"
+    },
+    "type=double": {
+      "model": "enderaddons:block/endertree_planks"
+    },
+    "type=top": {
+      "model": "enderaddons:block/endertree_slab_top"
+    }
+  }
+}

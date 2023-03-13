@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.StairShape;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -28,7 +29,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(10.0f).requiresTool(),
                     UniformIntProvider.create(10,15)), ModItemGroup.ENDERADDONS);
     public static final Block ENDER_GRASS = registerBlock("ender_grass",
-            new Block(FabricBlockSettings.of(Material.PLANT).strength(5.0f).requiresTool().sounds(BlockSoundGroup.GRASS)), ModItemGroup.ENDERADDONS);
+            new GrassBlock(FabricBlockSettings.of(Material.PLANT).strength(5.0f).requiresTool().sounds(BlockSoundGroup.GRASS)), ModItemGroup.ENDERADDONS);
 
     public static  final  Block ENDERTREE_LOG = registerBlock("endertree_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4.0f).requiresTool()), ModItemGroup.ENDERADDONS);
@@ -44,7 +45,8 @@ public class ModBlocks {
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool().luminance(10)), ModItemGroup.ENDERADDONS);
     public static  final  Block ENDERTREE_SAPLING = registerBlock("endertree_sapling",
             new EnderSaplingBlock(new EnderTreeSaplingGenorator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool().luminance(10)), ModItemGroup.ENDERADDONS);
-
+    public static  final  Block ENDERTREE_SLAB = registerBlock("endertree_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB).strength(4.0f).requiresTool()), ModItemGroup.ENDERADDONS);
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(EnderAddons.MOD_ID, name), block);

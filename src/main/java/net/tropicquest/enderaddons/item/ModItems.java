@@ -20,6 +20,7 @@ public class ModItems {
             new Item(new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
     public static final Item ENDSTAR = registerItem("endstar",
             new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof().maxCount(16)));
+    
     public static ToolItem ENDERSWORD = new SwordItem(EnderToolMaterial.INSTANCE, 3, -2.4F, new Item.Settings().fireproof());
     public static ToolItem ENDERPICKAXE = new ModPickaxeItem(EnderToolMaterial.INSTANCE, 1, -2.8F, new Item.Settings().fireproof());
     public static ToolItem ENDERAXE = new ModAxeItem(EnderToolMaterial.INSTANCE, 7.0F, -3.2F, new Item.Settings().fireproof());
