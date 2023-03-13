@@ -3,6 +3,10 @@ It is currently only compatable with 1.19.3, I do plan to maintain it into 1.20
 
 Showcase: https://www.youtube.com/embed/AFy7ZAsVTyo
 
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/enderaddons
+
+Modrinth: https://modrinth.com/mod/enderaddons
+
 # Future plans for v2: The Enderbiome update
 * New forest biome in end, will have navy blue wood and trees and shouldnt be too rare.
 * Biome exclusive mob, endercreeper will function like a normal creeper but do more damage + drop speical ingredent for making the armored elytra
